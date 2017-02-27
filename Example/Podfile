@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Picidae_Example' do
+  pod 'Picidae', :path => '../'
+
+  target 'Picidae_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
