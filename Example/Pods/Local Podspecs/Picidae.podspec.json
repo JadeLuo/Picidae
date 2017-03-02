@@ -1,0 +1,26 @@
+{
+  "name": "Picidae",
+  "version": "0.1.0",
+  "summary": "A short description of Picidae.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/394570610@qq.com/Picidae",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "394570610@qq.com": "wupeng@touker.com"
+  },
+  "source": {
+    "git": "https://github.com/394570610@qq.com/Picidae.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Picidae/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "JavaScriptCore"
+  ]
+}

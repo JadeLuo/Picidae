@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src='bridge.js'></script>
+	<script type="text/javascript">
+		function testClick (event) {
+			// body... 
+			if (hb !== 'undefined') {
+				bridge.callRouter({
+					"passwd":"123123"
+				},function (responseObject,error) {
+					/* body... */
+					alert(JSON.stringify(responseObject));
+				});
+			}
+		}
+	</script>
+</head>
+<body>
+<dir>
+	<button onclick="refreshCookie()" style="height: 100px; width:150px; border:2px; border-radius:4px 4px 4px 4px; background-color: #36B2FA; color: white">Test!</button>
+	<button onclick="authDevice()" style="height: 100px; width:150px; border:2px; border-radius:4px 4px 4px 4px; background-color: #36B2FA; color: white">Test!</button>
+</dir>
+</body>
+</html>

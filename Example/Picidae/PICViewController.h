@@ -11,3 +11,6 @@
 @interface PICViewController : UIViewController
 
 @end
+@interface NSObject (pic_uiwebViewDelegator)
+
+@end
