@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Picidae'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Picidae.'
+  s.summary          = 'Picidae is a bridge for JavaScript interaction'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Picidae is a bridge for JavaScript interaction.You can check demo to learn the process of interaction between JavaScript and NativeCode.
                        DESC
 
-  s.homepage         = 'https://github.com/394570610@qq.com/Picidae'
+  s.homepage         = 'https://github.com/Neojoke/Picidae.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '394570610@qq.com' => 'wupeng@touker.com' }
-  s.source           = { :git => 'https://github.com/394570610@qq.com/Picidae.git', :tag => s.version.to_s }
+  s.author           = { 'Neo' => '394570610@qq.com' }
+  s.source           = { :git => 'https://github.com/Neojoke/Picidae.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'

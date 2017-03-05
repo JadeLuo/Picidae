@@ -11,6 +11,7 @@
 @implementation PICError
 +(PICError *)ErrorWithCode:(NSInteger)code{
     PICError * error = [PICError errorWithDomain:@"AppErrorMsg" code:code userInfo:nil];
+    return error;
 }
 -(NSString *)description{
     NSString * ErrorMsg = @"App call back error :";
