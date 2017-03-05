@@ -10,16 +10,18 @@
 		1022E7003A8A2259B4FE80B73F16056E /* Pods-Picidae_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4C19BB901AC2CDD26C91F5041D5979 /* Pods-Picidae_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19B64F861B2469D3C406CC35669FAFB4 /* Pods-Picidae_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 516A66EA4215B13D257419062B742002 /* Pods-Picidae_Tests-dummy.m */; };
 		2CB8E1D6454F6DBEBA5676B6A888DC3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5E246B002BD4BECDB5B9A279F94A6 /* Foundation.framework */; };
-		3BA25F46B7AAB18D0DDBE490D0423358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565404E9D603575753AE7A9302E41519 /* UIKit.framework */; };
-		6E4BD653628B7EF6BCEFBD1DBBD6F90A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5E246B002BD4BECDB5B9A279F94A6 /* Foundation.framework */; };
-		AC18E8CA96233BE74E6148B9AC661DDA /* Picidae.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FF7156332747DD9AF94606EEDF8D07 /* Picidae.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD11596D721ACB499CFF08B1880FA733 /* PICBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EA689638E88175537E953DD671C34 /* PICBridge.m */; };
-		DAF724F1AEB9449B394D73E6E6C49803 /* Picidae-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8317FBA718760F4C75D4F2580A8BD9B /* Picidae-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3567016CFFE88AFE2FE4DAD1F7966630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565404E9D603575753AE7A9302E41519 /* UIKit.framework */; };
+		430C9076EF800BEDB6CEBBD67B443F64 /* Picidae.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB55AC65B5915D8CAE6858A50635B55 /* Picidae.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B1C010D7BE54DB4E6D125D0FFA538B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5E246B002BD4BECDB5B9A279F94A6 /* Foundation.framework */; };
+		47565FBD7F128CE0E631D56A26F634AA /* Picidae-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8317FBA718760F4C75D4F2580A8BD9B /* Picidae-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD7544C6C854180E3C029FC5A7978F0 /* PICError.m in Sources */ = {isa = PBXBuildFile; fileRef = A560F6A0946686443A736C9D7A2F5EB2 /* PICError.m */; };
+		6D35711597879DFBE13A885B731607B8 /* PICBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CFADD9FCB03F5D23A509266CD84493FB /* PICBridge.m */; };
+		6E851D03F533B8D0A5009D7CA5070A1D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C256E790A57395D954E824654DDE5F /* JavaScriptCore.framework */; };
+		8C81AD7FE75A03C096577DC9CA0F6CDF /* PICBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BE3FFD0B7A3F94AC85AE9D896A2AE6 /* PICBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EB89929931A4EF9F286B6830599A04 /* PICError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C45241F120F2658228DEB666504D76A /* PICError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7DBBCBED82A949381900B916276B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5E246B002BD4BECDB5B9A279F94A6 /* Foundation.framework */; };
 		E45B58915ED74A5990EACE3242F904F5 /* Pods-Picidae_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE199DF29ACF8BB05D619394283F160 /* Pods-Picidae_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBD3C76909B0B6353C6A7D33C3BA14FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C256E790A57395D954E824654DDE5F /* JavaScriptCore.framework */; };
-		ED358E55BDD1FE81836135E1676382A7 /* PICBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7062379176231B22B873B44FE62D9245 /* PICBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1BE95DBA55667736E28E0C3BEDBC420 /* Picidae-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129BAD6C951CF90DD99192A4BB48F822 /* Picidae-dummy.m */; };
+		E5B4EF2288E2BE095724809E8449B3F4 /* Picidae-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129BAD6C951CF90DD99192A4BB48F822 /* Picidae-dummy.m */; };
 		F7C845CBE9603B1BE566BDF514B1BCD1 /* Pods-Picidae_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB369A66F544D8779093CD70E9B13B3B /* Pods-Picidae_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0050E9740C326D142D175C257793B123;
+			remoteGlobalIDString = C7FC141D98F5B728291B1F703987A2C2;
 			remoteInfo = Picidae;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,22 +50,24 @@
 		565404E9D603575753AE7A9302E41519 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5D6A080A86E255BD1EE06DC9771E156E /* Pods-Picidae_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Picidae_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5E16C4F485FABDFE26F54440396E064D /* Pods-Picidae_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Picidae_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7062379176231B22B873B44FE62D9245 /* PICBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PICBridge.h; sourceTree = "<group>"; };
 		70D5E246B002BD4BECDB5B9A279F94A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		744F657408E4797B196E760B1AA80EE5 /* Pods-Picidae_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Picidae_Example.modulemap"; sourceTree = "<group>"; };
 		7C3B9C0C2406BF1B22575F74788301C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89FF7156332747DD9AF94606EEDF8D07 /* Picidae.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Picidae.h; sourceTree = "<group>"; };
+		7C45241F120F2658228DEB666504D76A /* PICError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PICError.h; sourceTree = "<group>"; };
+		89BE3FFD0B7A3F94AC85AE9D896A2AE6 /* PICBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PICBridge.h; sourceTree = "<group>"; };
 		91ECF2DEC18A1D2CCC825313FD116F43 /* Pods_Picidae_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Picidae_Tests.framework; path = "Pods-Picidae_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AB55AC65B5915D8CAE6858A50635B55 /* Picidae.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Picidae.h; sourceTree = "<group>"; };
+		A560F6A0946686443A736C9D7A2F5EB2 /* PICError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PICError.m; sourceTree = "<group>"; };
 		A68029C7413DA8599AB49315336310DC /* Pods-Picidae_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Picidae_Tests.modulemap"; sourceTree = "<group>"; };
 		B0C9E73D2B7A91BFCB6AF9C5B0B82BBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2A9BA03245DC356F5A867AB49761B1F /* Pods-Picidae_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Picidae_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C50EA689638E88175537E953DD671C34 /* PICBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PICBridge.m; sourceTree = "<group>"; };
 		C5798FA3C31C05C99CD2EC21B96736C0 /* Pods-Picidae_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Picidae_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C79E59B696C1DE613932323CDF8A3628 /* Pods-Picidae_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Picidae_Example-resources.sh"; sourceTree = "<group>"; };
 		CB369A66F544D8779093CD70E9B13B3B /* Pods-Picidae_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Picidae_Example-dummy.m"; sourceTree = "<group>"; };
 		CB6F50899C4A6DCCD3E12D5438BB747E /* Pods-Picidae_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Picidae_Tests-resources.sh"; sourceTree = "<group>"; };
 		CCE199DF29ACF8BB05D619394283F160 /* Pods-Picidae_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Picidae_Example-umbrella.h"; sourceTree = "<group>"; };
+		CFADD9FCB03F5D23A509266CD84493FB /* PICBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PICBridge.m; sourceTree = "<group>"; };
 		D2A35CEDDCBB77FB8B7150B2E597B1AA /* Pods-Picidae_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Picidae_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED869BB8A122FDFA08979EE4F5B05C68 /* Picidae.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Picidae.xcconfig; sourceTree = "<group>"; };
 		EF4C19BB901AC2CDD26C91F5041D5979 /* Pods-Picidae_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Picidae_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -89,13 +93,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C256B7A0AAD392A7B0A9A9EC387ACA35 /* Frameworks */ = {
+		F28837C6EAB629A9F8DE7B57F6775787 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4BD653628B7EF6BCEFBD1DBBD6F90A /* Foundation.framework in Frameworks */,
-				EBD3C76909B0B6353C6A7D33C3BA14FE /* JavaScriptCore.framework in Frameworks */,
-				3BA25F46B7AAB18D0DDBE490D0423358 /* UIKit.framework in Frameworks */,
+				45B1C010D7BE54DB4E6D125D0FFA538B /* Foundation.framework in Frameworks */,
+				6E851D03F533B8D0A5009D7CA5070A1D /* JavaScriptCore.framework in Frameworks */,
+				3567016CFFE88AFE2FE4DAD1F7966630 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1D2C2CC0EAC49B37387CA9FE25E8E441 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89BE3FFD0B7A3F94AC85AE9D896A2AE6 /* PICBridge.h */,
+				CFADD9FCB03F5D23A509266CD84493FB /* PICBridge.m */,
+				7C45241F120F2658228DEB666504D76A /* PICError.h */,
+				A560F6A0946686443A736C9D7A2F5EB2 /* PICError.m */,
+				9AB55AC65B5915D8CAE6858A50635B55 /* Picidae.h */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1E018A3B128F3931AC6B7476C319E4F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,17 +135,6 @@
 				91ECF2DEC18A1D2CCC825313FD116F43 /* Pods_Picidae_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		30E63A374A9418E3F114FD446B7077FF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7062379176231B22B873B44FE62D9245 /* PICBridge.h */,
-				C50EA689638E88175537E953DD671C34 /* PICBridge.m */,
-				89FF7156332747DD9AF94606EEDF8D07 /* Picidae.h */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		46B2E1A52AC46B76F6C4CE8D399ABAB5 /* Targets Support Files */ = {
@@ -146,6 +152,15 @@
 				CE9C361757DDECDFEE0F7DC6E17F91DA /* Picidae */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		76C31612D429BB24C59D688A193ACEA5 /* Picidae */ = {
+			isa = PBXGroup;
+			children = (
+				1D2C2CC0EAC49B37387CA9FE25E8E441 /* Classes */,
+			);
+			name = Picidae;
+			path = Picidae;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -177,15 +192,6 @@
 			path = "Target Support Files/Pods-Picidae_Example";
 			sourceTree = "<group>";
 		};
-		89D89F1B8474FC64771C1DE632C68CC2 /* Picidae */ = {
-			isa = PBXGroup;
-			children = (
-				30E63A374A9418E3F114FD446B7077FF /* Classes */,
-			);
-			name = Picidae;
-			path = Picidae;
-			sourceTree = "<group>";
-		};
 		91FD4278F80B8B4723B0255C65302FA0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +219,7 @@
 		CE9C361757DDECDFEE0F7DC6E17F91DA /* Picidae */ = {
 			isa = PBXGroup;
 			children = (
-				89D89F1B8474FC64771C1DE632C68CC2 /* Picidae */,
+				76C31612D429BB24C59D688A193ACEA5 /* Picidae */,
 				91FD4278F80B8B4723B0255C65302FA0 /* Support Files */,
 			);
 			name = Picidae;
@@ -249,6 +255,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F7DD64B1F4A669AF2A67308D9766ADC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C81AD7FE75A03C096577DC9CA0F6CDF /* PICBridge.h in Headers */,
+				D5EB89929931A4EF9F286B6830599A04 /* PICError.h in Headers */,
+				47565FBD7F128CE0E631D56A26F634AA /* Picidae-umbrella.h in Headers */,
+				430C9076EF800BEDB6CEBBD67B443F64 /* Picidae.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B270103C1F7089ADBAF82561E080D402 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,36 +274,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3913680D98BB1EA9301FA3677741F8D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED358E55BDD1FE81836135E1676382A7 /* PICBridge.h in Headers */,
-				DAF724F1AEB9449B394D73E6E6C49803 /* Picidae-umbrella.h in Headers */,
-				AC18E8CA96233BE74E6148B9AC661DDA /* Picidae.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0050E9740C326D142D175C257793B123 /* Picidae */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98FF95D60D9FCCD6262372F10974299F /* Build configuration list for PBXNativeTarget "Picidae" */;
-			buildPhases = (
-				3D18CA8CFAE8DD91E76D5878FC5C7254 /* Sources */,
-				C256B7A0AAD392A7B0A9A9EC387ACA35 /* Frameworks */,
-				F3913680D98BB1EA9301FA3677741F8D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Picidae;
-			productName = Picidae;
-			productReference = 169CD516297B0C9E7F07CBFEC0487102 /* Picidae.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B0E2121C41DD9F8A1E71FFEA6CD4EBC8 /* Pods-Picidae_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDBC247C17AE3764457635740E7E7FF6 /* Build configuration list for PBXNativeTarget "Pods-Picidae_Example" */;
@@ -322,6 +312,23 @@
 			productReference = 91ECF2DEC18A1D2CCC825313FD116F43 /* Pods_Picidae_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C7FC141D98F5B728291B1F703987A2C2 /* Picidae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E3586EF6911E009B41C5DAD99B77BE /* Build configuration list for PBXNativeTarget "Picidae" */;
+			buildPhases = (
+				C094B982176BACE107B20E136099A2BB /* Sources */,
+				F28837C6EAB629A9F8DE7B57F6775787 /* Frameworks */,
+				6F7DD64B1F4A669AF2A67308D9766ADC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picidae;
+			productName = Picidae;
+			productReference = 169CD516297B0C9E7F07CBFEC0487102 /* Picidae.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -343,7 +350,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0050E9740C326D142D175C257793B123 /* Picidae */,
+				C7FC141D98F5B728291B1F703987A2C2 /* Picidae */,
 				B0E2121C41DD9F8A1E71FFEA6CD4EBC8 /* Pods-Picidae_Example */,
 				C3BE129E3BCB0CB9ABCD5D7EFC97B69C /* Pods-Picidae_Tests */,
 			);
@@ -367,12 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D18CA8CFAE8DD91E76D5878FC5C7254 /* Sources */ = {
+		C094B982176BACE107B20E136099A2BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD11596D721ACB499CFF08B1880FA733 /* PICBridge.m in Sources */,
-				F1BE95DBA55667736E28E0C3BEDBC420 /* Picidae-dummy.m in Sources */,
+				6D35711597879DFBE13A885B731607B8 /* PICBridge.m in Sources */,
+				4CD7544C6C854180E3C029FC5A7978F0 /* PICError.m in Sources */,
+				E5B4EF2288E2BE095724809E8449B3F4 /* Picidae-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +390,43 @@
 		3E1924DFCEFA896470CF42EFA618F127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Picidae;
-			target = 0050E9740C326D142D175C257793B123 /* Picidae */;
+			target = C7FC141D98F5B728291B1F703987A2C2 /* Picidae */;
 			targetProxy = F17ED6085F66F4DCB8926008DFB1BCFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		151276C4D185D6CBF0506389F22BD95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED869BB8A122FDFA08979EE4F5B05C68 /* Picidae.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Picidae/Picidae-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Picidae/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Picidae/Picidae.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Picidae;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2BDBB81C9D9F87C7E9778E46EFAA593C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EF6D1C6D131816B8F42020ACE9EC625 /* Pods-Picidae_Example.release.xcconfig */;
@@ -415,37 +454,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Picidae_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		59DE0E00A5FE901B22F313BA49429F6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED869BB8A122FDFA08979EE4F5B05C68 /* Picidae.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Picidae/Picidae-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Picidae/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Picidae/Picidae.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Picidae;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -608,37 +616,6 @@
 			};
 			name = Debug;
 		};
-		AEB1003DAB39CB59D59AEC9B7E1287A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED869BB8A122FDFA08979EE4F5B05C68 /* Picidae.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Picidae/Picidae-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Picidae/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Picidae/Picidae.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Picidae;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D0740B62713B194709680DAAE5F8FFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2A35CEDDCBB77FB8B7150B2E597B1AA /* Pods-Picidae_Tests.debug.xcconfig */;
@@ -674,6 +651,37 @@
 			};
 			name = Debug;
 		};
+		D15EDE38C3D047A52AB0AA7C8D903477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED869BB8A122FDFA08979EE4F5B05C68 /* Picidae.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Picidae/Picidae-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Picidae/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Picidae/Picidae.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Picidae;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,11 +694,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98FF95D60D9FCCD6262372F10974299F /* Build configuration list for PBXNativeTarget "Picidae" */ = {
+		92E3586EF6911E009B41C5DAD99B77BE /* Build configuration list for PBXNativeTarget "Picidae" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEB1003DAB39CB59D59AEC9B7E1287A1 /* Debug */,
-				59DE0E00A5FE901B22F313BA49429F6C /* Release */,
+				D15EDE38C3D047A52AB0AA7C8D903477 /* Debug */,
+				151276C4D185D6CBF0506389F22BD95F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

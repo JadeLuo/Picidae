@@ -8,6 +8,7 @@
 
 #import "PICViewController.h"
 #import <Picidae/Picidae.h>
+#import "PICLoginViewController.h"
 @interface PICViewController ()<UIWebViewDelegate>
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 @property(strong,nonatomic)JSContext * context;
@@ -30,6 +31,14 @@
 -(void)captureJSContext{
     self.context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     self.bridge =[[PICBridge alloc]init];
+    __weak typeof(self) weakSelf = self;
+    [self.bridge addActionHandler:@"Login" forCallBack:^(NSDictionary *params, void (^errorCallBack)(NSError *error), void (^successCallBack)(NSDictionary *responseDict)) {
+        UIStoryboard * story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        PICLoginViewController * login = [story instantiateViewControllerWithIdentifier:@"PICLoginViewController"];
+        login.successCallBack = successCallBack;
+        login.errorCallBack = errorCallBack;
+        [weakSelf.navigationController pushViewController:login animated:YES];
+    }];
     self.context[@"bridge"] = self.bridge;
     [self.context setExceptionHandler:^(JSContext * context, JSValue * value) {
         NSLog(@"%@",[value toObject]);

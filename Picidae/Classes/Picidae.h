@@ -10,4 +10,5 @@
 #define Picidae_h
 
 #import "PICBridge.h"
+#import "PICError.h"
 #endif /* Picidae_h */

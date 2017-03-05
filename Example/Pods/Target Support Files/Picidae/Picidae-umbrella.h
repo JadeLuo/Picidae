@@ -11,6 +11,7 @@
 #endif
 
 #import "PICBridge.h"
+#import "PICError.h"
 #import "Picidae.h"
 
 FOUNDATION_EXPORT double PicidaeVersionNumber;

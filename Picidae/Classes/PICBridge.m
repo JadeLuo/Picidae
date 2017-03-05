@@ -7,6 +7,7 @@
 //
 
 #import "PICBridge.h"
+#import "PICError.h"
 @interface PICBridge()
 @property(nonatomic,strong)NSMutableDictionary * handlers;
 @end
@@ -26,28 +27,31 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             [weakSelf callAction:methodName params:params success:^(NSDictionary *responseDict) {
-                if (responseDict != nil) {
-                    NSString * result = [weakSelf responseStringWith:responseDict];
-                    if (result) {
-                        
+                    if (responseDict != nil) {
+                        NSString * result = [weakSelf responseStringWith:responseDict];
+                        if (result) {
+                            [callBack callWithArguments:@[@"null",result]];
+                        }
+                        else{
+                            [callBack callWithArguments:@[@"null",@"null"]];
+                        }
                     }
-                    [callBack callWithArguments:@[@"null",result]];
-                }
-                else{
-                    [callBack callWithArguments:@[@"null",@"null"]];
-                }
+                    else{
+                        [callBack callWithArguments:@[@"null",@"null"]];
+                    }
             } failure:^(NSError *error) {
-                if (error) {
-                    [callBack callWithArguments:@[[error description],@"null"]];
-                }
-                else{
-                    [callBack callWithArguments:@[@"App Inner Error",@"null"]];
-                }
+                    if (error) {
+                        [callBack callWithArguments:@[[error description],@"null"]];
+                    }
+                    else{
+                        [callBack callWithArguments:@[@"App Inner Error",@"null"]];
+                    }
             }];
         });
     }
     else{
-        [callBack callWithArguments:@[@NO,@"methodName missing."]];
+        
+        [callBack callWithArguments:@[@NO,[PICError ErrorWithCode:PICUnkonwError].description]];
     }
     return;
 }
@@ -55,7 +59,6 @@
     if (actionHandlerName.length>0 && callBack != nil) {
         [self.handlers setObject:callBack forKey:actionHandlerName];
     }
-    
 }
 -(void)callAction:(NSString *)actionName params:(NSDictionary *)params success:(void(^)(NSDictionary * responseDict))success failure:(void(^)(NSError * error))failure{
     void(^callBack)(NSDictionary * params,void(^errorCallBack)(NSError * error),void(^successCallBack)(NSDictionary * responseDict)) = [self.handlers objectForKey:actionName];

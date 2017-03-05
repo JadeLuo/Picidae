@@ -95,9 +95,25 @@
                     window.location.href = '/account/common/transferPage.htm';
                 }
             });
+        },
+        login: function() {
+            // body...
+            this.callAppRouter('Login', null, function(errMsg, res) {
+                // body...
+
+                if (errMsg !== null && errMsg !== 'undefined' && errMsg !== 'null') {
+
+                } else {
+                    var name = res['phone'];
+                    if (name !== 'undefined' && name !== 'null') {
+                        var button = document.getElementById('loginButton');
+                        button.innerHTML = name;
+                    }
+                }
+            });
         }
     };
 
     //将mobile对象挂载到window全局
-    win.hbmb = mobile;
+    win.webBridge = mobile;
 })(window);
